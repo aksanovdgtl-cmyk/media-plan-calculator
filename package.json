@@ -1,0 +1,33 @@
+{
+  "name": "media-plan-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser media planning calculator for Google Ads, Meta Ads, Yandex Direct and Telegram Ads. By Marat Aksanov.",
+  "author": {
+    "name": "Marat Aksanov",
+    "url": "https://aksanov.digital"
+  },
+  "license": "MIT",
+  "homepage": "https://aksanov.digital/tools/advertising/media-plan-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aksanovdgtl-cmyk/media-plan-calculator.git"
+  },
+  "keywords": [
+    "media-planning",
+    "ppc",
+    "google-ads",
+    "meta-ads",
+    "telegram-ads",
+    "javascript",
+    "marketing"
+  ],
+  "scripts": {
+    "test": "node tests/smoke.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "main": "src/engine.js"
+}

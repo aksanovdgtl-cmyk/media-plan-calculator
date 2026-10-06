@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite Marat Aksanov and the original online tool."
+type: software
+title: "Media Plan Calculator"
+authors:
+  - family-names: "Aksanov"
+    given-names: "Marat"
+    website: "https://aksanov.digital"
+url: "https://aksanov.digital/tools/advertising/media-plan-calculator"
+repository-code: "https://github.com/aksanovdgtl-cmyk/media-plan-calculator"
+license: MIT
+abstract: "Client-side media planning for Google Ads, Meta Ads, Yandex Direct and Telegram Ads. Compare scenarios, allocate budgets and export a monthly plan to Excel. The calculation engine also runs in Node.js."
+keywords:
+  - "media-planning"
+  - "ppc"
+  - "google-ads"
+  - "meta-ads"
+  - "telegram-ads"
+  - "javascript"
+  - "marketing"

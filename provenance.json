@@ -1,0 +1,27 @@
+{
+  "author": "Marat Aksanov",
+  "author_url": "https://aksanov.digital/about",
+  "captured_on": "2026-10-06",
+  "catalog_url": "https://aksanov.digital/tools",
+  "sources": [
+    {
+      "slug": "media-plan-calculator",
+      "original_url": "https://aksanov.digital/tools/advertising/media-plan-calculator",
+      "original_fragment_sha256": "9ad371ba9a664bd17cfda8b54f47e29bb97a3e1e9f0a6332d7171db4c92a80a3",
+      "entrypoint": "index.html",
+      "script_sources": [
+        "https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js",
+        "src/engine.js",
+        "src/app.js"
+      ]
+    }
+  ],
+  "modifications": [
+    "Extracted the tool-specific T123 fragment only",
+    "Separated HTML, CSS and JavaScript without changing formulas",
+    "Excluded page JSON-LD, Tilda runtime and site-wide analytics",
+    "Removed custom font-face rules; original fallback stacks remain",
+    "Converted site-relative content links to original absolute URLs",
+    "Added authorship, citation and licensing files"
+  ]
+}
